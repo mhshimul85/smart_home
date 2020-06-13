@@ -1,0 +1,84 @@
+/*
+MD. MEHADI HASAN SHIMUL mhshimul85@hCJQ5V4jzgrr6zv
+Main SCSS File
+
+sass/
+|
+|– abstracts/
+|   |– _variables.scss    # Sass Variables
+|   |– _functions.scss    # Sass Functions
+|   |– _mixins.scss       # Sass Mixins
+|   |– _placeholders.scss # Sass Placeholders
+|
+|– base/
+|   |– _reset.scss        # Reset/normalize
+|   |– _typography.scss   # Typography rules
+|   …                     # Etc.
+|
+|– components/
+|   |– _buttons.scss      # Buttons
+|   |– _carousel.scss     # Carousel
+|   |– _cover.scss        # Cover
+|   |– _dropdown.scss     # Dropdown
+|   …                     # Etc.
+|
+|– layout/
+|   |– _navigation.scss   # Navigation
+|   |– _grid.scss         # Grid system
+|   |– _header.scss       # Header
+|   |– _footer.scss       # Footer
+|   |– _sidebar.scss      # Sidebar
+|   |– _forms.scss        # Forms
+|   …                     # Etc.
+|
+|– pages/
+|   |– _home.scss         # Home specific styles
+|   |– _contact.scss      # Contact specific styles
+|   …                     # Etc.
+|
+|– themes/
+|   |– _theme.scss        # Default theme
+|   |– _admin.scss        # Admin theme
+|   …                     # Etc.
+|
+|– vendors/
+|   |– _bootstrap.scss    # Bootstrap
+|   |– _jquery-ui.scss    # jQuery UI
+|   …                     # Etc.
+|
+`– main.scss              # Main Sass file
+
+// Normalize CSS
+// @import "normalize.css";
+*/
+
+// Base Files
+@import "1-base/animations";
+@import "1-base/base";
+@import "1-base/typography";
+@import "1-base/utilities";
+
+// Component Files
+@import "2-components/button";
+
+// Layout Files
+@import "3-layout/header";
+
+// Pages Files
+@import "4-pages/home";
+
+// Themes Files
+// @import "5-themes/home";
+
+
+// Abstract Files
+@import "6-abstracts/functions";
+@import "6-abstracts/mixins";
+@import "6-abstracts/variables";
+@import "6-abstracts/extends";
+
+// Vendors Files
+// @import "7-vendors/home";
+
+
+

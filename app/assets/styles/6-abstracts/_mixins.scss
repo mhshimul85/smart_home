@@ -1,0 +1,9 @@
+// All Mixins Code
+
+@mixin clearfix{
+    &::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
