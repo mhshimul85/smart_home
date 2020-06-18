@@ -52,6 +52,12 @@ sass/
 // @import "normalize.css";
 */
 
+// Abstract Files
+@import "6-abstracts/functions";
+@import "6-abstracts/mixins";
+@import "6-abstracts/variables";
+@import "6-abstracts/extends";
+
 // Base Files
 @import "1-base/animations";
 @import "1-base/base";
@@ -68,17 +74,7 @@ sass/
 @import "4-pages/home";
 
 // Themes Files
-// @import "5-themes/home";
-
-
-// Abstract Files
-@import "6-abstracts/functions";
-@import "6-abstracts/mixins";
-@import "6-abstracts/variables";
-@import "6-abstracts/extends";
+// @import "5-themes/theme";
 
 // Vendors Files
-// @import "7-vendors/home";
-
-
-
+// @import "7-vendors/vendor";

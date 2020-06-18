@@ -2,7 +2,7 @@ import $ from 'jquery';
 
 class Fetch_data {
     constructor() {
-      $(document).ready(function(){
+  $(document).ready(function(){
   // Defining Variable
   var relay_one;
   var relay_two;
