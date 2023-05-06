@@ -27,7 +27,7 @@
     "@babel/preset-env": "^7.10.2",
     "autoprefixer": "^9.8.0",
     "babel-loader": "^8.1.0",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.29.1",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-cssnano": "^2.1.3",
